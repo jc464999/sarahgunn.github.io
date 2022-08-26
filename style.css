@@ -1,0 +1,75 @@
+body, .form  {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #141414;
+}
+
+h1, h2, h3, h4 {
+    font-style: italic;
+    color: #0F2E1B;
+}
+
+.link {
+    color: #54645F;
+}
+
+p {
+    font-size: 12px;
+}
+
+h1, .selfimage {
+    text-align: center;
+}
+
+#contact_section {
+    background-color: #929487;
+    text-align: center;
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+table, th, td{
+    border: 2px solid #0D2818;
+    border-collapse: collapse;
+    padding: 10px
+}
+
+.selfimage {
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about_section {
+    padding: 50px
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+
+.topnav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #A1B0AB;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 10px;
+}
+
+header {
+    margin-top: 80px;
+}

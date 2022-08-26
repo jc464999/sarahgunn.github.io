@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Sarah Gunn's Portfolio
+    </title>
+    <head>
+        <link href="./style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+        <header>
+                <!--Quick Links-->
+            <nav class="topnav" id="portfoliotopnav">
+                <a class="link" href="#about">About</a>
+                <a class="link" href="#skills">Skills</a>
+                <a class="link" href="#accomplishments">Accomplishments</a>
+                <a class="link" href="#contact">Contact</a>
+            </nav>
+        <h1>
+            Sarah Gunn
+        </h1>
+        </header>
+        <!--About Section-->
+        <div id="about_section">
+            <figure">
+                <a href="https://au.linkedin.com/in/sarah-gunn-776a6a194" target="_blank">
+                <img class="selfimage" src="sarah_profile.jpg" width=150 height=200 alt="Image of blonde caucasian woman from shoulders up"/>
+                </a>
+            </figure>
+            <h2 id="about" class="heading uppercase">
+                About
+            </h2>
+            <p>
+                I am a postgraduate student at <strong>James Cook University</strong>. After completing my undergratuate degree in Advanced Science focusing on chemistry, and molecular and cell biology, I decided I wanted to pursue a career in research. I am currently in my second (and last) year of my <em>Master of Philosophy</em> in molecular and cell biology (MCB). My project focuses on fibrillins, a type of extracellular matrix protein involved in connective tissue disorders. I look forward to continuing my journey towards academia, although I am not sure which area I will end up in.
+            </p>
+            <br><br>
+            <!--Skills Subsection-->
+            <h3 id="skills">
+                Skills
+            </h3>
+            <h4>
+                Research Skills
+            </h4>
+            <ul class="list">
+                <li>Mammalian cell work</li>
+                <li>DNA cloning methonds</li>
+                <li>Bacterial cell work</li>
+                <li>Proposal and grant writing</li>
+            </ul>
+            <h4>
+                Interpersonal Skills
+            </h4>
+            <ul class="list">
+                <li>Teamwork and collaboration</li>
+                <li>High level of responsibility</li>
+                <li>Active listening</li>
+                <li>Cooperation and negotiation</li>
+                <li>Empathetic</li>
+            </ul>
+            <h4>
+                Technical Skills
+            </h4>
+            <ul class="list">
+                <li>Microsoft 365 application use</li>
+                <li>R studio proficiency</li>
+                <li>Windows operating system</li>
+                <li>Adobe photoshop and illustrator</li>
+            </ul>
+        </div>
+        <!--Accomplishments Section-->
+        <div id="accomplishment_section">
+            <h2 id="accomplishments">
+                Accomplishments
+            </h2>
+            <table>
+                <tr>
+                    <th>Publications</th>
+                    <th>Awards</th>
+                    <th>Presentations</th>
+                </tr>
+                <tr>
+                    <td>Blank</td>
+                    <td>Blank</td>
+                    <td>Blank</td>
+                </tr>
+            </table>
+        </div>
+        <br><br><br>
+        <!--Contact Section-->
+        <div id="contact_section">
+            <h2 id="contact" class="contactform">
+                Contact
+            </h2>
+            <a class="link" href="https://au.linkedin.com/in/sarah-gunn-776a6a194" target="_blank">LinkedIn</a>
+            <br><br>
+            <form>
+                <label for="name">*Full Name:</label>
+                <br>
+                <input type="text" name="name-text-field" value="Please enter your name" required>
+                <br><br>
+                <label for="email">*Email:</label>
+                <br>
+                <input type="text" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                <br><br>
+                <label for="mobile">Mobile (optional):</label>
+                <br>
+                <input type="tel" name="mobile" id="mobile" pattern="[0-9]{10,16}">
+                <br><br>
+                <label for="message">*Leave your message below:</label>
+                <br>
+                <textarea id="message" name="message-text-area" rows="5" cols="30" required></textarea>
+                <br><br>
+                <input type="submit">
+            </form>
+        </div>
+        </main>
+    </body>
+</html>
